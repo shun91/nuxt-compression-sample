@@ -2,6 +2,12 @@
   <div>
     <NuxtRouteAnnouncer />
 
+    <h1>nuxt-compression-sample</h1>
+
+    <p>
+      ブラウザのdevtoolsのネットワークタブを開き、圧縮配信されていることを確認してみてください。
+    </p>
+
     <table v-if="data">
       <thead>
         <tr>
@@ -14,11 +20,7 @@
         <td>{{ todo.todo }}</td>
       </tr>
     </table>
-    <template v-else>
-      <p>Loading...</p>
-    </template>
-
-    <NuxtWelcome />
+    <template v-else> Loading... </template>
   </div>
 </template>
 
