@@ -19,6 +19,18 @@
       </tr>
     </table>
     <template v-else> Loading... </template>
+
+    <hr />
+
+    <p>
+      ref:
+      <a
+        href="https://zenn.dev/shun91/articles/nuxt3-compression-gzip-br"
+        target="_blank"
+      >
+        Nuxt3でコンテンツやアセットを圧縮配信する（gzip/brotli）
+      </a>
+    </p>
   </div>
 </template>
 
