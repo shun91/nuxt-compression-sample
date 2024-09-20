@@ -5,5 +5,5 @@ export default defineNuxtConfig({
   runtimeConfig: {
     apiUrl: "https://dummyjson.com",
   },
-  nitro: { compressPublicAssets: true },
+  // nitro: { compressPublicAssets: true },
 });
