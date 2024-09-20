@@ -2,7 +2,7 @@
   <div>
     <NuxtRouteAnnouncer />
 
-    <table v-if="data" style="border: solid">
+    <table v-if="data">
       <thead>
         <tr>
           <th>id</th>
@@ -27,8 +27,11 @@ const { data } = await useLazyFetch<any>("/api/todos", { server: false });
 </script>
 
 <style scoped>
+table {
+  border-collapse: collapse;
+}
 th,
 td {
-  border: solid;
+  border: solid 1px;
 }
 </style>
